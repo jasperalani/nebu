@@ -1,3 +1,13 @@
+.button {
+  background: #ae52d4;
+  border: 0;
+  transition: background 0.5s ease-out; }
+  .button:hover {
+    background: #d153f7; }
+
+.dis-n {
+  display: none; }
+
 * {
   font-family: "Montserrat", sans-serif; }
 
@@ -22,3 +32,12 @@
       #index-wrapper #index-content #loginsignup-wrapper .link:hover {
         color: #4a0072;
         cursor: pointer; }
+    #index-wrapper #index-content .index-form {
+      display: inline-grid; }
+      #index-wrapper #index-content .index-form input {
+        padding: 15px; }
+      #index-wrapper #index-content .index-form .index-form-input {
+        color: #ae52d4;
+        border: 0; }
+        #index-wrapper #index-content .index-form .index-form-input:focus {
+          outline: none; }

@@ -1,10 +1,28 @@
 $link-color-bright: #ae52d4;
 $link-color-hover: #4a0072;
 
+$button-hover-color: #d153f7;
+$button-hover-transition: background 0.5s ease-out;
+
 $logo-font-family: 'Shrikhand', cursive;
 $logo-hover-transition: color 2.5s ease-out;
+
+.button {
+  background: $link-color-bright;
+  border: 0;
+  transition: $button-hover-transition;
+
+  &:hover {
+    background: $button-hover-color;
+  }
+}
+
+.dis-n {
+  display: none;
+}
 
 * {
   font-family: "Montserrat", sans-serif;
   //box-sizing: border-box;
 }
+

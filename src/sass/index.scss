@@ -34,5 +34,19 @@
       }
 
     }
+
+    .index-form {
+      display: inline-grid;
+      input {
+        padding: 15px;
+      }
+      .index-form-input {
+        color: $link-color-bright;
+        border: 0;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
   }
 }
