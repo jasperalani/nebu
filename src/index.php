@@ -15,14 +15,29 @@ include_once('includes.php');
         <p>Listen here.</p>
     </header>
     <main id="index-content">
-        <form class="index-form">
+
+        <div id="loginsignup-wrapper" class="dis-n">
+            <p><span class="link" id="login-link">Login</span> or <span class="link" id="signup-link">Signup</span>
+            </p>
+        </div>
+
+        <form class="index-form signin">
+            <small class="index-form-response"></small>
             <input class="index-form-input" type="text" name="userid" placeholder="UserID" required>
             <input class="index-form-input" type="password" name="password" placeholder="Password" required>
             <input class="button" type="submit" name="submit" value="Sign In">
+            <small class="index-form-back-link">register</small>
         </form>
-        <div id="loginsignup-wrapper" class="dis-n">
-            <p><span class="link" onclick="login()">Login</span> or <span class="link" onclick="signup()">Signup</span></p>
-        </div>
+
+        <form class="index-form register">
+            <small class="index-form-response"></small>
+            <input class="index-form-input" type="text" name="userid" placeholder="UserID" required>
+            <input class="index-form-input" type="password" name="password" placeholder="Password" required>
+            <input class="button" type="submit" name="submit" value="Register">
+            <small class="index-form-back-link">sign in</small>
+        </form>
+
+
     </main>
 </div>
 </body>

@@ -11,14 +11,11 @@ $logo-hover-transition: color 2.5s ease-out;
   background: $link-color-bright;
   border: 0;
   transition: $button-hover-transition;
+  color: white;
 
   &:hover {
     background: $button-hover-color;
   }
-}
-
-.dis-n {
-  display: none;
 }
 
 * {

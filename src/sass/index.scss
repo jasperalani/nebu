@@ -36,16 +36,31 @@
     }
 
     .index-form {
+      position: relative;
       display: inline-grid;
+      color: $link-color-bright;
+
+      &.signin, &.register {
+        display: none;
+      }
+
+      .index-form-response {
+        padding: 6px;
+      }
+
       input {
         padding: 15px;
       }
       .index-form-input {
-        color: $link-color-bright;
         border: 0;
         &:focus {
           outline: none;
         }
+      }
+
+      .index-form-back-link {
+        padding: 10px;
+        cursor: pointer;
       }
     }
   }

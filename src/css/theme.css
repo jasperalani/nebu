@@ -1,12 +1,10 @@
 .button {
   background: #ae52d4;
   border: 0;
-  transition: background 0.5s ease-out; }
+  transition: background 0.5s ease-out;
+  color: white; }
   .button:hover {
     background: #d153f7; }
-
-.dis-n {
-  display: none; }
 
 * {
   font-family: "Montserrat", sans-serif; }
@@ -33,11 +31,19 @@
         color: #4a0072;
         cursor: pointer; }
     #index-wrapper #index-content .index-form {
-      display: inline-grid; }
+      position: relative;
+      display: inline-grid;
+      color: #ae52d4; }
+      #index-wrapper #index-content .index-form.signin, #index-wrapper #index-content .index-form.register {
+        display: none; }
+      #index-wrapper #index-content .index-form .index-form-response {
+        padding: 6px; }
       #index-wrapper #index-content .index-form input {
         padding: 15px; }
       #index-wrapper #index-content .index-form .index-form-input {
-        color: #ae52d4;
         border: 0; }
         #index-wrapper #index-content .index-form .index-form-input:focus {
           outline: none; }
+      #index-wrapper #index-content .index-form .index-form-back-link {
+        padding: 10px;
+        cursor: pointer; }
