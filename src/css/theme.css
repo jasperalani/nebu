@@ -1,0 +1,24 @@
+* {
+  font-family: "Montserrat", sans-serif; }
+
+#index-wrapper {
+  margin: 5em; }
+  #index-wrapper header {
+    margin: 2em 0; }
+    #index-wrapper header h1 {
+      margin: 0;
+      font-family: "Shrikhand", cursive;
+      display: inline-block;
+      transition: color 2.5s ease-out; }
+      #index-wrapper header h1:hover {
+        color: #ae52d4; }
+    #index-wrapper header p {
+      margin: 0; }
+  #index-wrapper #index-content {
+    padding: 50px 70px; }
+    #index-wrapper #index-content #loginsignup-wrapper .link {
+      margin: 0;
+      color: #ae52d4; }
+      #index-wrapper #index-content #loginsignup-wrapper .link:hover {
+        color: #4a0072;
+        cursor: pointer; }

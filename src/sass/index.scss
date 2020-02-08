@@ -1,0 +1,38 @@
+#index-wrapper {
+  margin: 5em;
+
+  header {
+    margin: 2em 0;
+
+    h1 {
+      margin: 0;
+      font-family: $logo-font-family;
+      display: inline-block;
+      transition: $logo-hover-transition;
+
+      &:hover {
+        color: #ae52d4;
+      }
+    }
+
+    p {
+      margin: 0;
+    }
+
+  }
+
+  #index-content {
+    padding: 50px 70px;
+
+    #loginsignup-wrapper .link {
+      margin: 0;
+      color: $link-color-bright;
+
+      &:hover {
+        color: $link-color-hover;
+        cursor: pointer;
+      }
+
+    }
+  }
+}
